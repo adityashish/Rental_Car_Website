@@ -14,17 +14,17 @@ window.onscroll = () => {
 const sr = ScrollReveal({
     distance: '60px',
     duration: 2500,
-    delay: 400,
+    delay: 300,
     reset: true
 })
 
 sr.reveal('.text', { delay: 200, origin: 'top' })
 sr.reveal('.form-container form', { delay: 800, origin: 'left' })
-sr.reveal('.heading', { delay: 400, origin: 'top' })
-sr.reveal('.ride-container .box', { delay: 400, origin: 'top' })
-sr.reveal('.services-container .box', { delay: 400, origin: 'top' })
-sr.reveal('.about-img ', { delay: 400, origin: 'left' })
-sr.reveal('.about-text ', { delay: 400, origin: 'right' })
-sr.reveal('.reviews-container ', { delay: 400, origin: 'bottom' })
-sr.reveal('.newsletter ', { delay: 400, origin: 'bottom' })
+sr.reveal('.heading', { delay: 300, origin: 'top' })
+sr.reveal('.ride-container .box', { delay: 300, origin: 'top' })
+sr.reveal('.services-container .box', { delay: 300, origin: 'top' })
+sr.reveal('.about-img ', { delay: 300, origin: 'left' })
+sr.reveal('.about-text ', { delay: 300, origin: 'right' })
+sr.reveal('.reviews-container ', { delay: 300, origin: 'bottom' })
+sr.reveal('.newsletter ', { delay: 300, origin: 'bottom' })
 
